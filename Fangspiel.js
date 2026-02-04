@@ -36,7 +36,7 @@ var button1
 function preload()
 {
 //  bild1=loadImage("Rakete.png")
-  bild2=loadImage("Ufo.png")
+  bild2=loadImage("assets/Ufo.png")
  // hintergrundbild=loadImage("Weltraum.png")
 }
 
