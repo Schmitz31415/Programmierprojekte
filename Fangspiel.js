@@ -22,10 +22,11 @@ var computerTrue=false;
 var screen=0;
 
 var bild1;
-var bild2
-var hintergrundbild
+var bild2;
+var hintergrundbild;
 
-var button1
+var button1;
+var button2;
 
 //buttons mit schwierigkeiten
 // dh. die geschwindigkeit ändern
