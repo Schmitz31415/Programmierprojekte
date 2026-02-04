@@ -36,7 +36,7 @@ var button1
 function preload()
 {
 //  bild1=loadImage("Rakete.png")
- // bild2=loadImage("Ufo.png")
+  bild2=loadImage("Ufo.png")
  // hintergrundbild=loadImage("Weltraum.png")
 }
 
@@ -226,8 +226,8 @@ function spieler2()
 {
   rect(bewegung2X,bewegung2Y,20,20)
   
-  //bild2.resize(20,20);
-  //image(bild2,bewegung2X,bewegung2Y);
+  bild2.resize(20,20);
+  image(bild2,bewegung2X,bewegung2Y);
   
   text(punkte2,300,30)
   
