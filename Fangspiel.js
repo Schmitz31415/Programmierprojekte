@@ -35,7 +35,7 @@ var button1
 
 function preload()
 {
-  bild1=loadImage("Rakete.jpg")
+  bild1=loadImage("Rakete.png")
   bild2=loadImage("Ufo.png")
   hintergrundbild=loadImage("Weltraum.png")
 }
