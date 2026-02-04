@@ -35,9 +35,9 @@ var button1
 
 function preload()
 {
-  bild1=loadImage("Rakete.png")
-  bild2=loadImage("Ufo.png")
-  hintergrundbild=loadImage("Weltraum.png")
+//  bild1=loadImage("Rakete.png")
+ // bild2=loadImage("Ufo.png")
+ // hintergrundbild=loadImage("Weltraum.png")
 }
 
 function setup() {
@@ -83,9 +83,9 @@ function draw() {
   if(screen==1)
     {
       
-      hintergrundbild.resize(400,400);
+   //   hintergrundbild.resize(400,400);
       
-      image(hintergrundbild,200,200)
+     // image(hintergrundbild,200,200)
       
   spieler1();
 
@@ -176,8 +176,8 @@ function spieler1()
 {
   rect(bewegung1X,bewegung1Y,20,20)
   
-  bild1.resize(20,20);
-  image(bild1,bewegung1X,bewegung1Y);
+  //bild1.resize(20,20);
+  //image(bild1,bewegung1X,bewegung1Y);
   
   text(punkte1,50,30)
   textSize(30);
@@ -226,8 +226,8 @@ function spieler2()
 {
   rect(bewegung2X,bewegung2Y,20,20)
   
-  bild2.resize(20,20);
-  image(bild2,bewegung2X,bewegung2Y);
+  //bild2.resize(20,20);
+  //image(bild2,bewegung2X,bewegung2Y);
   
   text(punkte2,300,30)
   
